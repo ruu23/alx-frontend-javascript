@@ -35,7 +35,7 @@ export default class ALXCourse {
   }
 
   set students(value) {
-    if (Array.isArray(value)) {
+    if (!Array.isArray(value)) {
       throw new Error('students must be an array');
     }
     this._students = value;
