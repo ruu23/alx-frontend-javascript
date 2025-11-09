@@ -29,7 +29,7 @@ interface studentInterface{
     displayName(): string;
 }
 
-class StudentClass{
+class StudentClass {
     firstName:string;
     lastName:string;
     constructor({firstName, lastName}: StudentConstructor){
