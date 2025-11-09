@@ -8,7 +8,7 @@ interface Teacher {
 };
 
 interface Director extends Teacher{
-    numberOfReports: Number;
+    numberOfReports: number;
 }
 
 interface printTeacherFunction{
